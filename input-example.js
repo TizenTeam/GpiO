@@ -1,7 +1,7 @@
 var gpio = require("gpio");
 var pin = process.argv[2] ? Number(process.argv[2]) : 11;
 var input = gpio.export(pin, {
-  direction: "in",
+  direction: gpio.DIRECTION.IN,
   ready: function() {
     this.on("change", function(val) {
       console.log("log: GPIO" + this.headerNum + ": change: "+ val);
