@@ -11,6 +11,7 @@
 		"artik",
 		"gpio",
 		"pi",
+                "pwm",
 		"raspberry",
 		"rpi",
 		"sbc",
@@ -30,4 +31,4 @@
 			"url": "https://raw.github.com/EnotionZ/GpiO/master/LICENSE"
 		}
 	]
-}
+
